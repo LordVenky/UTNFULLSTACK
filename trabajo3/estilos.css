@@ -1,15 +1,31 @@
 *{
-    margin: 4px;
+    margin: 0px;
 }
 body{
-    background-color: white;
+    background-color: #444444;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
 }
+
+img{
+    width: 100%;
+    height: 150%;
+}
+
 main{
-    background-color: red;
+    background-color: white;
     width: 500px;
     height: 638px;
     margin-left: auto;
     margin-right: auto;
+    border: 3px solid black;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    border-radius: 34px;
+    z-index: 2;
+    position: relative;
+    bottom: 1065px;
 }
 
 header{
@@ -21,27 +37,59 @@ header{
     background-size: cover;
     background-position-y: -40px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    -webkit-border-top-left-radius: 29px;
+    -webkit-border-top-right-radius: 29px;
+    -moz-border-radius-topleft: 29px;
+    -moz-border-radius-topright: 29px;
+    border-top-left-radius: 29px;
+    border-top-right-radius: 29px;
+}
+
+header h1{
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+}
+
+header div{
+    position: relative;
+    bottom: 5px;
 }
 
 #padre{
     width: 500px;
     height: 250px;
-    background-color: yellow;
-    margin: 0;
+    margin: 4px;
     display: flex;
     justify-content: space-around;
 }
 
 #padre article{
     border: 1px solid black;
+    box-shadow: 0 0 3px black;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-right: 8px;
+    width: 236.56px;
+    height: 247px;
 }
 
 #perfil{
-    background-color: darkgreen;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid black;
+    box-shadow: 0 0 3px black;
     height: 125px;
     position: relative;
     top: 7px;
+    color: white;
+    margin: 4px;
 }
 
 #perfil h3{
@@ -60,9 +108,48 @@ footer{
     align-items: center;
     position: relative;
     top: 20px;
-<<<<<<< HEAD
-}
-=======
+    -webkit-border-bottom-right-radius: 29px;
+    -webkit-border-bottom-left-radius: 29px;
+    -moz-border-radius-bottomright: 29px;
+    -moz-border-radius-bottomleft: 29px;
+    border-bottom-right-radius: 29px;
+    border-bottom-left-radius: 29px;
 }
 
->>>>>>> 78d15eefe4814b66cc78f38cdf8d78a33a850c30
+
+h3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Playfair Display', serif;  
+}
+
+p{
+    margin-left: 7px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+li{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+ol{
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.icon-video-camera:before {
+    content: "\e914";
+  }

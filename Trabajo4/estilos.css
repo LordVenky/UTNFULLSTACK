@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+/* menu */
+
+#caja1{
+    width: 99.8%;
+    height: 52px;
+    background-color: red;
+    border: solid 1px rosybrown;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#caja1 ul{
+    display: flex;
+    justify-content: end;
+}
+
+#caja1 ul li{
+    list-style: none;
+    display: flex;
+}
+
+.uno, .dos, .tres{ 
+    display: flex;   
+    margin: 0 9px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+li a{
+    text-decoration: none;
+    display: flex;   
+    color: white;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+/* redes sociales */
+
+body #caja2{
+    width: 45px;
+    height: 156px;
+    position:fixed;
+    top: 28%;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.one, .two, .three{
+    width: 43px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one a{
+    background-color: #54e346;
+}
+
+.one a .icon-whatsapp{
+    background-color: #54e346;
+    font-size: 30px;
+}
+
+
+.two a{
+    background-color: #3b5998;
+}
+
+.two a .icon-facebook2{
+    background-color: #3b5998;
+    font-size: 25px;
+}
+
+.three a{
+    background-color: red;
+}
+
+.three a .icon-instagram{
+    background-color: red;
+    font-size: 25px;
+}
+
+
+
+/* 3 pilares */
+
+#caja3{
+    width: 950px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+}
+
+.un, .deux, .trois{
+    width: 250px;
+    height: 398px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    border: 1px solid white;
+    display: flex;
+}
+
+p{
+    color: white;
+    display: flex;
+}
+
+
+/* iconos de redes */
+
+.icon-whatsapp:before {
+    content: "\ea93";
+    color: white;
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+    color: white;
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+    color: white;
+}
