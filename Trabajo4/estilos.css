@@ -51,6 +51,7 @@ body #caja2{
     height: 156px;
     position:fixed;
     top: 28%;
+    z-index: 10;
 }
 
 .redes{
@@ -65,15 +66,18 @@ body #caja2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease-in-out ;
 }
 
 .one a{
     background-color: #54e346;
+    transition: all 0.3s ease-in-out ;
 }
 
 .one a .icon-whatsapp{
     background-color: #54e346;
     font-size: 30px;
+    transition: all 0.3s ease-in-out ;
 }
 
 
@@ -114,13 +118,13 @@ body #caja2{
     height: 398px;
     border: 1px solid white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
 img{
-    width: 200px;
+    width: 234px;
     height: 250px;
     border: 1px solid white;
     display: flex;
@@ -129,6 +133,9 @@ img{
 p{
     color: white;
     display: flex;
+    padding: 12px;
+    width: 211px;
+    text-align: center;
 }
 
 
@@ -147,4 +154,144 @@ p{
 .icon-instagram:before {
     content: "\ea92";
     color: white;
+}
+
+
+/* Media query */ 
+
+@media only screen and (max-width: 500px){
+    
+/* menu */
+
+#caja1{
+    width: 500px;
+    height: 155px;
+    background-color: red;
+    display: flex;
+    margin: 0;
+}
+
+#caja1 ul{
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   height: 155px;
+}
+
+#caja1 ul li{
+    display: flex;
+}
+
+.uno, .dos, .tres{ 
+    width: 500px;
+    height: 155px;
+    margin: 0;
+}
+
+li a{
+    width: 500px;
+    height: 51.7px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* redes sociales */
+
+body #caja2{
+    width: 15px;
+    height: 156px;
+    position:fixed;
+    top: 28%;
+    z-index: 10;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.one, .two, .three{
+    width: 15px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one a{
+    width: 14px;
+    height: 50px;
+    background-color: #54e346;
+}
+
+.two a{
+    width: 14px;
+    height: 50px;
+    background-color: #3b5998;
+}
+
+.three a{
+    width: 14px;
+    height: 50px;
+    background-color: red;
+}
+
+.icon-whatsapp, .icon-instagram, .icon-facebook2{
+    display: none;
+}  
+
+
+
+/* pelares */ 
+
+#caja3{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.un, .deux, .trois{
+    width: 250px;
+    height: 398px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    top: 60px;
+}
+
+img{
+    width: 252px;
+    height: 250px;
+    display: flex;
+}
+
+p{
+    display: none;
+}
+
+/* transicion */
+
+.one:hover{
+    width: 43px;
+    background-color: #54e346;
+}
+
+.two:hover{
+    width: 43px;
+    background-color: #3b5998;
+}
+
+.three:hover{
+    width: 43px;
+    background-color: red;
+}
+
 }
