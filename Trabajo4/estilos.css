@@ -199,7 +199,7 @@ li a{
 /* redes sociales */
 
 body #caja2{
-    width: 15px;
+    width: 45px;
     height: 156px;
     position:fixed;
     top: 28%;
@@ -207,40 +207,42 @@ body #caja2{
 }
 
 .redes{
-    display: flex;
     flex-direction: column;
 }
 
-.one, .two, .three{
-    width: 15px;
-    height: 50px;
-    border: 1px solid white;
+#caja2 a{
+    width: 45px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+span{
+    width: 45px;
+    height: 52px;
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.one a{
-    width: 14px;
-    height: 50px;
-    background-color: #54e346;
+.icon-whatsapp{
+    background: green;
 }
 
-.two a{
-    width: 14px;
-    height: 50px;
-    background-color: #3b5998;
+.icon-facebook2{
+    background: rgb(0, 130, 252);
 }
 
-.three a{
-    width: 14px;
-    height: 50px;
-    background-color: red;
+.icon-instagram{
+    background: red;
 }
 
-.icon-whatsapp, .icon-instagram, .icon-facebook2{
-    display: none;
-}  
+span{
+    transition: all 0.5s ease-in-out;
+    font-size: 21px;
+}
 
 
 
@@ -279,19 +281,16 @@ p{
 
 /* transicion */
 
-.one:hover{
-    width: 43px;
-    background-color: #54e346;
+span:hover{
+    width: 45px;
+    height: 52px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
 }
 
-.two:hover{
-    width: 43px;
-    background-color: #3b5998;
-}
-
-.three:hover{
-    width: 43px;
-    background-color: red;
-}
-
+#caja2 a:hover{
+    width: 45px;
 }
