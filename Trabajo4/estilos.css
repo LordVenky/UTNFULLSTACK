@@ -55,50 +55,42 @@ body #caja2{
 }
 
 .redes{
-    display: flex;
     flex-direction: column;
 }
 
-.one, .two, .three{
-    width: 43px;
-    height: 50px;
-    border: 1px solid white;
+#caja2 a{
+    width: 45px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+span{
+    width: 45px;
+    height: 52px;
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.3s ease-in-out ;
 }
 
-.one a{
-    background-color: #54e346;
-    transition: all 0.3s ease-in-out ;
+.icon-whatsapp{
+    background: green;
 }
 
-.one a .icon-whatsapp{
-    background-color: #54e346;
-    font-size: 30px;
-    transition: all 0.3s ease-in-out ;
+.icon-facebook2{
+    background: rgb(0, 130, 252);
 }
 
-
-.two a{
-    background-color: #3b5998;
+.icon-instagram{
+    background: red;
 }
 
-.two a .icon-facebook2{
-    background-color: #3b5998;
-    font-size: 25px;
+span{
+    transition: all 0.5s ease-in-out;
+    font-size: 21px;
 }
-
-.three a{
-    background-color: red;
-}
-
-.three a .icon-instagram{
-    background-color: red;
-    font-size: 25px;
-}
-
 
 
 /* 3 pilares */
@@ -192,56 +184,37 @@ li a{
     width: 500px;
     height: 51.7px;
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 /* redes sociales */
 
-body #caja2{
-    width: 15px;
-    height: 156px;
-    position:fixed;
-    top: 28%;
-    z-index: 10;
-}
-
-.redes{
-    display: flex;
-    flex-direction: column;
+span{
+    opacity: 0;
 }
 
 .one, .two, .three{
-    width: 15px;
-    height: 50px;
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 20px;
+    height: 52px;
+    border: 1px solid red;
+}
+
+#caja2 a{
+    width: 20px;
 }
 
 .one a{
-    width: 14px;
-    height: 50px;
-    background-color: #54e346;
+    background: green;
 }
 
 .two a{
-    width: 14px;
-    height: 50px;
-    background-color: #3b5998;
+    background: rgb(0, 130, 252);
 }
 
 .three a{
-    width: 14px;
-    height: 50px;
-    background-color: red;
+    background: red;
 }
-
-.icon-whatsapp, .icon-instagram, .icon-facebook2{
-    display: none;
-}  
-
 
 
 /* pelares */ 
@@ -278,20 +251,17 @@ p{
 }
 
 /* transicion */
-
-.one:hover{
-    width: 43px;
-    background-color: #54e346;
+  
+span:hover{
+    width: 45px;
+    height: 52px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
 }
 
-.two:hover{
-    width: 43px;
-    background-color: #3b5998;
-}
-
-.three:hover{
-    width: 43px;
-    background-color: red;
-}
-
+#caja2 a:hover{
+    width: 45px;
 }
