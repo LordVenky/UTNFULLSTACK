@@ -190,6 +190,7 @@ li a{
 
 /* redes sociales */
 
+<<<<<<< HEAD
 span{
     opacity: 0;
 }
@@ -216,6 +217,55 @@ span{
     background: red;
 }
 
+=======
+body #caja2{
+    width: 45px;
+    height: 156px;
+    position:fixed;
+    top: 28%;
+    z-index: 10;
+}
+
+.redes{
+    flex-direction: column;
+}
+
+#caja2 a{
+    width: 45px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+span{
+    width: 45px;
+    height: 52px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-whatsapp{
+    background: green;
+}
+
+.icon-facebook2{
+    background: rgb(0, 130, 252);
+}
+
+.icon-instagram{
+    background: red;
+}
+
+span{
+    transition: all 0.5s ease-in-out;
+    font-size: 21px;
+}
+
+
+>>>>>>> 029d65a07ead8bf663e4e0f58a70dcb7230006ec
 
 /* pelares */ 
 
@@ -251,7 +301,11 @@ p{
 }
 
 /* transicion */
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 029d65a07ead8bf663e4e0f58a70dcb7230006ec
 span:hover{
     width: 45px;
     height: 52px;
@@ -260,8 +314,16 @@ span:hover{
     justify-content: center;
     align-items: center;
     opacity: 1;
+<<<<<<< HEAD
 }
 
 #caja2 a:hover{
     width: 45px;
 }
+=======
+}
+
+#caja2 a:hover{
+    width: 45px;
+}
+>>>>>>> 029d65a07ead8bf663e4e0f58a70dcb7230006ec
