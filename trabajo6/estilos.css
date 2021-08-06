@@ -1,0 +1,65 @@
+#map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    display: flex;
+}
+
+#contacto{
+   position: relative;
+   top: 8px;
+}
+
+#redes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    right: 30px;
+}
+
+.icon-instagram1:before {
+    content: "\e902";
+    color: #e4405f;
+    display: flex;
+}
+
+.icon-twitter1:before {
+    content: "\e903";
+    color: #1da1f2;
+    display: flex;
+}
+
+.icon-linkedin1:before {
+    content: "\e900";
+    color: #0077b5;
+    display: flex;
+}
+
+#lord{
+    display: flex;
+    align-items: flex-end;
+}
+
+#pepa{
+ ffont-family: 'Libre Baskerville', serif;
+ float: right;
+ padding-left: 3px;
+ position: relative;
+ top: 7px;
+ left: 5px;
+}
+
+footer p{
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+}
+
+
+#venky{
+    display: flex;
+    align-items: flex-end;
+}
