@@ -45,7 +45,7 @@ iframe{
 }
 
 #pepa{
- ffont-family: 'Libre Baskerville', serif;
+ font-family: 'Libre Baskerville', serif;
  float: right;
  padding-left: 3px;
  position: relative;
@@ -63,3 +63,4 @@ footer p{
     display: flex;
     align-items: flex-end;
 }
+
